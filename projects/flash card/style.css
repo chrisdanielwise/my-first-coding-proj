@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: auto;
+    background-color: gainsboro;
+}
+#first_btn{
+    width: 150px;
+    background-color: #4242e7;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    position: absolute;
+    right: 5%;
+    text-decoration: none;
+    padding: 5px 10px;
+    top: 5%;
+    cursor: pointer;
+}
+#main_form{
+    width: 40%;
+    height: 70vh;
+    background-color:white;
+    margin-top: 10%;
+    margin-inline: auto;
+    /* border: 2px solid gainsboro; */
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px white;
+    display: none ;
+}
+.form_content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+   
+}
+#first_btn h1{
+    font-weight: 700;
+    margin-top: 5%;
+    margin-bottom: 8%;
+}
+#first_btn p{
+    margin-bottom: 2%;
+    color: pink;
+    display: none;
+}
+label[for="question"]{
+    font-size: 1rem;
+    margin-bottom: 3%;
+}
+#question{
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    border: 2px solid gainsboro;
+    outline: none;
+    margin-bottom: 3%;
+}
+label[for="answer"]{
+    font-size: 1rem;
+    margin-bottom: 3%;
+}
+#answer{
+    height: 100px;
+    resize: none;
+    border: 2px solid gainsboro;
+    outline: none;
+    margin-bottom: 3%;
+}
+
+[id="submit"]{
+    width: 100%;
+    padding-block: 10px;
+    font-size: 1rem;
+    background-color: #4242e7;
+    color:white;
+    border: none;
+}
+.sub_section{
+    width: 18%;
+    height: 30vh;
+     position: absolute;
+    top: 50%;
+    left: 3%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 20px white;
+    background-color: white;
+    display: none;
+}
+.sub_content{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 90%;
+    margin: auto;
+}
+#output_1{
+    margin-bottom: 3%;
+    word-wrap: break-word;
+}
+[id="second_btn"]{
+    width: 100%;
+    background-color: #4242e7;
+    color:white;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+    margin-bottom: 3%;
+    border: none;
+}
+#output_2{
+    width: 100%;
+    height: 50%;
+    word-wrap: break-word;
+    display: none;
+}
+.sub_content ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+.sub_content ul li:first-child{
+   width: max-content;
+   margin-left: auto;
+}

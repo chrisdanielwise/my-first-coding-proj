@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List With Local Storage</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <input type="range" min="20" max="200" value="20" id="weight" oninput="calculate()" >
+        <label weight-val for="weight" >20 kg</label>
+      </div>
+      <div class="row">
+        <input type="range" min="100" max="250" value="100" id="height" oninput="calculate()">
+        <label height-val for="height" >100 cm</label>
+      </div>
+      <p id="result">20.0</p>
+      <p id="category">Normal weight</p>
+    </div>
+    <!-- Script -->
+    <script src="main.js"></script>
+  </body>
+</html>

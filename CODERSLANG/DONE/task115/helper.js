@@ -1,0 +1,1 @@
+export const objects = [{name:'banabas'},{school:'Ritman University'},{surname: 'Nneeh'}];

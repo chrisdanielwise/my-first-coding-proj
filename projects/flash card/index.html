@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=poppins:wght@600&family=Roboto+Mono:wght@700&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery.js"></script>
+</head>
+<body>
+    <a id="first_btn">Add flashcards</a>
+    <form id="main_form" onsubmit="return false">
+        <div class="form_content">
+        <h1>Add Flashcard</h1>
+        <p id="message">input fields cannot be empty</p>
+        <label for="question">Question:</label>
+        <input type="text" id="question" placeholder="Where is Source">
+        <label for="answer">Answer</label>
+        <textarea name="" id="answer" cols="20" rows="10" placeholder="Type the answer here..."></textarea>
+        <button type="button" id="submit">save</button>
+
+        </div>
+       </form>
+       <div class="sub_section" id="two">
+        <div class="sub_content">
+            <p id="output_1"></p>
+            <button type="button" id="second_btn">Show/Hide</button>
+            <p id="output_2"></p>
+            <ul>
+                <li>icon_1</li>
+                <li>icon_2</li>
+            </ul>
+        </div>
+       </div>
+    <script src="main.js"></script>
+</body>
+</html>

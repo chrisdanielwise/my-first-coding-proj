@@ -1,0 +1,1 @@
+export const strings = ['banana','goat','cow','man','fish'];

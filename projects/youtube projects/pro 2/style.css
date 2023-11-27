@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    min-height: 100vh;
+    background-color: #0b87ff;
+    display: grid;
+    place-items: center;
+  }
+  button{
+    width: 200px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 1.3rem;
+    outline: none;
+    color: white;
+  }
+  .font{
+    font-size: 2rem;
+  }
+.font1{
+  background-color: white;
+  padding: 10px;
+}

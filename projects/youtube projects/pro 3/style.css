@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  body{
+    min-height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+  }
+  .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 40%;
+    height: 200px;
+  }
+  .wrapper{
+    display: flex;
+    place-items: center;
+    gap: 1rem;
+  }
+  .wrapper input{
+    min-width: 400px;
+  }
+  .rgb_color{
+    width: max-content;
+    font-size: 1.5rem;
+    padding: 10px;
+    background-color: #0b87ff;
+  }
