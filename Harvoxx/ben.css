@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+}
+header{
+    width: 100%;
+    height: 105vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #213b52;
+}
+header nav{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    /* outline: 2px solid red; */
+    display: flex;
+}
+header nav h1{
+    width: 40%;
+}
+header nav h1 span:nth-child(1){
+    color: white;
+}
+header nav h1 span:nth-child(2){
+    color: #fdc134;
+    margin-right: 15px;
+}
+header nav ul{
+    display: flex; 
+    list-style: none;
+    font-size: 13px;
+    width: 50%;
+    margin-right: auto;
+}
+header nav ul li{
+    margin: auto;
+}
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+header main{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+header main .cont-main1{
+    width: 47%;
+    /* outline: 2px solid red; */
+}
+main .cont-main1 h1{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 100%;
+    font-size: 37px;
+    font-weight: 1000;
+    color: #fff;
+}
+
+main .cont-main1 p{
+    width: 100%;
+    font-size: 13px;
+    line-height: 1.2;
+    margin-bottom: 5%;
+    color: #fff;
+}
+main .cont-main1 a{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 40px;
+    border: 2px solid #fdc134;
+    background-color: #fdc134;
+    border-radius: 15px;
+    font-size: 18px;
+    transition: 300ms ease-in-out;
+}
+.cont-main1 a:hover{
+    background-color: #213b52;
+    transition: 300ms ease-in-out;
+    color: #fff;
+}
+header main .cont-main2{
+    width: 45%;
+    height: 300px;
+}
+main .cont-main2{
+    width: 100%;
+    height: 100%;
+}
+
+/* ----Section1--- */
+.section1{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    display: flex;
+    gap: 20px;
+}
+.section1 .left-sect{
+    background-image: url("./images/asset 8.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 40%;
+    height: 200px;
+}
+.section1 .right-sect{
+    width: 50%;
+    height: 85vh;
+    outline: 2px solid red;
+}
+.section1 .right-sect .top-sect{
+    width: 100%;
+    height: 40%;
+}
+.section1 .right-sect .bottom-sect{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.section1 .section-list{
+    width: 45%;
+    list-style: none;
+    outline: 2px solid red;
+}
+.section1 .bottom-sect .bottom-left {
+    width: 100%;
+}
+.section1 .bottom-sect .right-left {
+    width: 100%;
+}

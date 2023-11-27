@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+}
+body h2{
+    color: azure;
+}
+body p{
+    color: gray;
+}
+ul{
+    position: relative;
+    margin: auto;
+}
+ul li:first-child{
+    color: yellow;
+}
+ul li:nth-child(2){
+    color: orange;
+}
+ul li:last-child{
+    color: purple;
+}

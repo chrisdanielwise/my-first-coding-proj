@@ -1,0 +1,5 @@
+# print('Start of file to console')
+# input('Type your name here')
+# print(round(1.55678,2))
+# print(input())
+# print('End of file to the console')
